@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mangoes.instatags.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Take picture"
+            android:gravity="center"
+            android:onClick="takePicture"
+            android:drawableLeft="@drawable/image"
+            android:id="@+id/takePictureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/pictureTaken"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+    </LinearLayout>
+
+</LinearLayout>

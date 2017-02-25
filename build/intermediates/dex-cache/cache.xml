@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_2c2d1e7e93c6a2821d943ff4e7a98f0c79da9391.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_ff91ef8596772f3808c1d3c7a9e4a166b0eadb61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_859d56aff692b2217a27c7643c80abaca95c7e6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_7cc8c96c8ec75d5286526279a346762e731e82f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_76191f3d60b1935174eedbc66fdaae43a47fa39e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_e68040fd53a0e367402e95d829f42a65b07ef083.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_ebbae034314bb719d9113b051e2754fde60e9a14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_85a9074832a4fe7d45718df945fca601fdb5630a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_fa167aceb2178067dd25274bd9d17df93c4c7722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_e989842ae6db31d0bc649787b8398837b6f1b90b.jar" />
+    </item>
+
+</items>
