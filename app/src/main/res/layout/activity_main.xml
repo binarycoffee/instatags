@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
@@ -8,10 +9,10 @@
     tools:context="mangoes.instatags.MainActivity">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
+        <Button
             android:text="Take picture"
             android:gravity="center"
             android:onClick="takePicture"
@@ -19,11 +20,20 @@
             android:id="@+id/takePictureButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <ImageView
+        <Button
+            android:text="Upload picture"
+            android:gravity="center"
+            android:onClick="uploadPicture"
+            android:id="@+id/uploadPictureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <ImageView
             android:id="@+id/pictureTaken"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="230dp" />
-    </LinearLayout>
 
 </LinearLayout>

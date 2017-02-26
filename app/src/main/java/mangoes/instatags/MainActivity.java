@@ -125,6 +125,32 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    public void uploadPicture(View view)
+    {
+
+        // Holds image file
+        File imageFile = null;
+
+        // Holds uri file
+        Uri imageURI = null;
+
+        // Create intent to call gallery
+        Intent imageIntent = new Intent(Intent.ACTION_GET_CONTENT);
+        imageIntent.setType("image/*");
+
+        //Choosing location of image pick
+        Intent choiceIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        choiceIntent.setType("image/*");
+
+        //Choosing the image
+        Intent pickIntent = new Intent(Intent.createChooser(imageIntent, "Select Image"));
+        pickIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[] {choiceIntent});
+
+        startActivityForResult(pickIntent, 1);
+
+
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
