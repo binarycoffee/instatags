@@ -17,6 +17,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+
+import com.google.gson.JsonObject;
+
+import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -159,17 +163,23 @@ public class MainActivity extends AppCompatActivity
             {
                 final ClarifaiClient client = new ClarifaiBuilder("jaxaSxQtMpzIoodkJLLh2Xjtie0G-13VtRxMY-td", "pktFNejsWh11mlELBUrnRuoty6Zh5bXSyGrX1R6d").buildSync();
                 ClarifaiResponse<List<ClarifaiOutput<Concept>>> res = client.getDefaultModels()
-                        .generalModel().predict().withInputs
-                                (
-                                        ClarifaiInput.forImage
-                                                (
-                                                        ClarifaiImage.of
-                                                                (
-                                                                        new File(imageAbsolutePathNew)
-                                                                )
-                                                )
-                                ).executeSync();
-                System.out.println("Return value:" +res.get());
+                    .generalModel().predict().withInputs
+                            (
+                                    ClarifaiInput.forImage
+                                            (
+                                                    ClarifaiImage.of
+                                                            (
+                                                                    new File(imageAbsolutePathNew)
+                                                            )
+                                            )
+                            ).executeSync();
+
+                ArrayList<String> tags = new ArrayList<>();
+               //Iterate through ClarifaiResponse name attributes a.k.a. tags
+                for(int i = 0; i < res.get().get(0).data().size(); i++){
+                    tags.add(res.get().get(0).data().get(i).name().toString());
+                }
+
             }
         }
         ).start();
