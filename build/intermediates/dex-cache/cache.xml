@@ -2,94 +2,148 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_2c2d1e7e93c6a2821d943ff4e7a98f0c79da9391.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_ff91ef8596772f3808c1d3c7a9e4a166b0eadb61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_859d56aff692b2217a27c7643c80abaca95c7e6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_7cc8c96c8ec75d5286526279a346762e731e82f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_76191f3d60b1935174eedbc66fdaae43a47fa39e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_e68040fd53a0e367402e95d829f42a65b07ef083.jar" />
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_a89209ec661580c3c1532ab12b678577e9302357\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_ebbae034314bb719d9113b051e2754fde60e9a14.jar" />
+        sha1="7c9523ca15601d35a2b40f5b572096f68ac19888">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_50698a6497a06149b856606308f336141a2359a7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/william/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\carta\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_85a9074832a4fe7d45718df945fca601fdb5630a.jar" />
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_4eac5f371cacbe596bea0704e76af1385afcb0b8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\carta\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_b660b539dc3d20dc0d66592217a47c4665ab1cd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a86acffb4226b1e72a25667b471b340394877547">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fe94c6d09c9c6ac542ea0f4bdbd9a563928190f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_bc938810c4afb3fbe7fb10fec3c47fb95b44c93c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_00c8460628bbf26db19c685f6daf8b435047c5be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_fa167aceb2178067dd25274bd9d17df93c4c7722.jar" />
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_6e2485faa42b071da970e64d0f30bde39e483f56\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_c9f8c4d396a6666f58e0b1ca49d3278bef7253dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\.gradle\caches\modules-2\files-2.1\com.clarifai.clarifai-api2\core\2.2.3\4ec90c6e47a29325dcfa12d50559ee9c7d66fe4a\core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4ec90c6e47a29325dcfa12d50559ee9c7d66fe4a">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-2.2.3_077646e3d375292376d9e99b4c93c3f8d7e55d7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_c1a8dafcedf986e2931e352784a0c3e94203445d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/william/AndroidStudioProjects/instatags/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_e989842ae6db31d0bc649787b8398837b6f1b90b.jar" />
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_21925806cd3da0347c566bb11cb512083a3f6516\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_a210a89d7ed316a42569df5f5918394a5aea0909\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_67d4c83b69fa43329200b51155e445890c797119\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_f8b316bfb079deebc160c654f5b105fb53ce6f80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carta\Desktop\instatags\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\carta\Desktop\instatags\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_779def57aa1eb8e1e577a8e57828ab671b62f866\classes.dex" />
     </item>
 
 </items>

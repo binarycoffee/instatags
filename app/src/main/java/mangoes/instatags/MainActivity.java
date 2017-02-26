@@ -23,8 +23,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+
 import clarifai2.api.ClarifaiBuilder;
+import clarifai2.api.ClarifaiClient;
+import clarifai2.api.ClarifaiResponse;
 import clarifai2.dto.input.ClarifaiInput;
+import clarifai2.dto.input.image.ClarifaiImage;
 import clarifai2.dto.model.output.ClarifaiOutput;
 import clarifai2.dto.prediction.Concept;
 
@@ -149,15 +153,26 @@ public class MainActivity extends AppCompatActivity
         Bitmap bitmap = (BitmapFactory.decodeFile(this.imageAbsolutePathNew));
 
         takenPicture.setImageBitmap(bitmap);
-
-
-        new ClarifaiBuilder("jaxaSxQtMpzIoodkJLLh2Xjtie0G-13VtRxMY-td", "pktFNejsWh11mlELBUrnRuoty6Zh5bXSyGrX1R6d").buildSync();
-        Clarifai.getDefaultModels().generalModel().predict()
-                .withInputs(
-                        ClarifaiInput.forImage(ClarifaiImage.of("https://samples.clarifai.com/metro-north.jpg"))
-                )
-                .executeSync();
-
+        new Thread(new Runnable() {
+            @Override
+            public void run()
+            {
+                final ClarifaiClient client = new ClarifaiBuilder("jaxaSxQtMpzIoodkJLLh2Xjtie0G-13VtRxMY-td", "pktFNejsWh11mlELBUrnRuoty6Zh5bXSyGrX1R6d").buildSync();
+                ClarifaiResponse<List<ClarifaiOutput<Concept>>> res = client.getDefaultModels()
+                        .generalModel().predict().withInputs
+                                (
+                                        ClarifaiInput.forImage
+                                                (
+                                                        ClarifaiImage.of
+                                                                (
+                                                                        new File(imageAbsolutePathNew)
+                                                                )
+                                                )
+                                ).executeSync();
+                System.out.println("Return value:" +res.get());
+            }
+        }
+        ).start();
 
 
 
